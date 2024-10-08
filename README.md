@@ -1,5 +1,9 @@
 # Events: Detailed control over when workflows are triggered:
 
+## Available Events:
+* Most are repository related (ex. `pull_request`, `push`)
+* Some are more general (ex. `schedule`)
+
 ## Activity Types:
 Ex: `pull_request` event => `opened, closed, edited, etc.`
 
@@ -17,4 +21,4 @@ First time contributors must be approved manually. This avoids security risks. A
 
 ## Skipping Workflows
 * Don't trigger a workflow in cases where it would normally get triggered
-* Use proper commit message "[skip ci]" "[skip actions]"
+* Use proper commit message "`[skip ci]`" "`[skip actions]`"
